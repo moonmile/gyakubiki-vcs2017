@@ -1,0 +1,18 @@
+﻿<Window x:Class="wpf388.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf388"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <!-- 画像の表示 Stretch の説明 -->
+        <Image 
+            HorizontalAlignment="Left" Height="162" 
+            Margin="10,10,0,0" VerticalAlignment="Top" 
+            Width="222" 
+            Source="images/sample.jpg" 
+            Stretch="UniformToFill" />
+    </Grid>
+</Window>

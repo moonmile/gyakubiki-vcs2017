@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<persons>
+  <person>
+    <name>masuda tomoaki</name>
+    <age>45</age>
+  </person>
+  <person>
+    <name>masuda yumi</name>
+    <age>40</age>
+  </person>
+  <person>
+    <name>masuda kaho</name>
+    <age>7</age>
+  </person>
+  <person>
+    <name>masuda kazuhisa</name>
+    <age>3</age>
+  </person>
+  <person>
+    <name>shinohara hayato</name>
+    <age>12</age>
+  </person>
+  <person>
+    <name>shinohara shota</name>
+    <age>11</age>
+  </person>
+</persons>

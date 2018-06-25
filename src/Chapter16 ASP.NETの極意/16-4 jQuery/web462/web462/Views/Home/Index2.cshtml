@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Index2";
+}
+
+<h1>格子点に沿ってドラッグ</h1>
+<img id="img1" src="~/images/sample.jpg" />
+@section Scripts {
+    <script>
+        $(function () {
+            $("#img1").draggable({ grid: [50, 50] });
+        });
+    </script>
+}
+
+

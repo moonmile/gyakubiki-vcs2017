@@ -1,0 +1,23 @@
+﻿<Window x:Class="blend412.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" 
+        xmlns:local="clr-namespace:blend412"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="callout">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Grid>
+        <Label 
+            x:Name="label1"
+            Content="ボタンクリックで半透明になり消える" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ed:Callout x:Name="callout" AnchorPoint="0.085,1.4" CalloutStyle="RoundedRectangle" Content="押す" Fill="#FFA6A6FF" FontSize="40" HorizontalAlignment="Left" Height="105" Margin="72,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="211" MouseDown="callout_MouseDown"/>
+    </Grid>
+</Window>

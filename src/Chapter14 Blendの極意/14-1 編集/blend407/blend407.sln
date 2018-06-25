@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blend407", "blend407\blend407.csproj", "{E69411EC-0B47-4695-BEF8-38820A7ADE4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E69411EC-0B47-4695-BEF8-38820A7ADE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69411EC-0B47-4695-BEF8-38820A7ADE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69411EC-0B47-4695-BEF8-38820A7ADE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69411EC-0B47-4695-BEF8-38820A7ADE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6876E136-44FD-43D7-AB1D-BDCE8D90DE4E}
+	EndGlobalSection
+EndGlobal

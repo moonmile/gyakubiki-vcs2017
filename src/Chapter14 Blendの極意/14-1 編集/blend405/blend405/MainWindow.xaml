@@ -1,0 +1,20 @@
+﻿<Window x:Class="blend405.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:blend405"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="ふきだしに影を付ける" Margin="10,10,383,284"/>
+        <Path Data="M82.75,0.5 C128.17542,0.49999887 165,23.221547 165,51.249999 165,79.278449 128.17542,102 82.75,102 67.844788,102 53.865585,99.553656 41.809494,95.276206 L40.93433,94.956961 1.2504989,100.92661 17.242727,81.938514 16.840164,81.614531 C6.5774941,73.147269 0.5,62.636557 0.5,51.249999 0.5,23.221547 37.324581,0.49999887 82.75,0.5 z" Fill="#FFF4F4F5" Stretch="Fill" Stroke="Black" Margin="186.5,48.212,165,168.288"/>
+        <Path Data="M82.75,0.5 C128.17542,0.49999887 165,23.221547 165,51.249999 165,79.278449 128.17542,102 82.75,102 67.844788,102 53.865585,99.553656 41.809494,95.276206 L40.93433,94.956961 1.2504989,100.92661 17.242727,81.938514 16.840164,81.614531 C6.5774941,73.147269 0.5,62.636557 0.5,51.249999 0.5,23.221547 37.324581,0.49999887 82.75,0.5 z" Fill="#FFF4F4F5" Stretch="Fill" Stroke="Black" Margin="186.5,179.212,165,37.288">
+            <Path.Effect>
+                <DropShadowEffect/>
+            </Path.Effect>
+        </Path>
+        <Label Content="DropShadowEffectを付ける" Margin="10,198,335.5,96"/>
+
+    </Grid>
+</Window>

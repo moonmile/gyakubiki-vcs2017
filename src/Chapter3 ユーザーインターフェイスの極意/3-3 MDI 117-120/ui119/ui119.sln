@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ui119", "ui119\ui119.csproj", "{949BAFDB-7A1E-4533-B5AB-1BDF2E1C16F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{949BAFDB-7A1E-4533-B5AB-1BDF2E1C16F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949BAFDB-7A1E-4533-B5AB-1BDF2E1C16F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949BAFDB-7A1E-4533-B5AB-1BDF2E1C16F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949BAFDB-7A1E-4533-B5AB-1BDF2E1C16F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AA998F3-1BDE-47F1-BDA8-0A53D86FC72D}
+	EndGlobalSection
+EndGlobal

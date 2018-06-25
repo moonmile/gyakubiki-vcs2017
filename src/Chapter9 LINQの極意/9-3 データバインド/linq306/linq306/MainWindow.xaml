@@ -1,0 +1,29 @@
+﻿<Window x:Class="linq306.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:linq306"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button 
+            Click="clickButton"
+            Content="読み込み" 
+            HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="53"/>
+        <ComboBox 
+        x:Name="comboBox1"
+        HorizontalAlignment="Left" Margin="102,10,0,0" VerticalAlignment="Top" Width="313"/>
+        <ListView 
+        x:Name="listView1"
+        HorizontalAlignment="Left" Height="273" Margin="102,36,0,0" VerticalAlignment="Top" Width="313">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="商品ID" DisplayMemberBinding="{Binding Id}" />
+                    <GridViewColumn Header="商品名" DisplayMemberBinding="{Binding 商品名}"/>
+                    <GridViewColumn Header="単価" DisplayMemberBinding="{Binding 単価}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
